@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Keir Whitlock</title>
-    <link>https://kwhitlock.github.io/posts/</link>
-    <description>Recent content in Posts on Keir Whitlock</description>
+    <title>Posts on Blog</title>
+    <link>http://www.keirwhitlock.co.uk/posts/</link>
+    <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
     <lastBuildDate>Thu, 05 Sep 2019 12:39:13 +0100</lastBuildDate>
     
-	<atom:link href="https://kwhitlock.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.keirwhitlock.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>https://kwhitlock.github.io/posts/my-first-post/</link>
+      <link>http://www.keirwhitlock.co.uk/posts/my-first-post/</link>
       <pubDate>Thu, 05 Sep 2019 12:39:13 +0100</pubDate>
       
-      <guid>https://kwhitlock.github.io/posts/my-first-post/</guid>
+      <guid>http://www.keirwhitlock.co.uk/posts/my-first-post/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod a velit et dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse hendrerit libero eget tortor imperdiet, vitae consectetur orci porttitor. Fusce dictum purus eget neque consectetur pellentesque. Integer mattis lobortis condimentum. Nulla porttitor sodales eleifend. Donec eleifend, lacus eu tempor porttitor, nisi tellus consectetur enim, at sodales magna diam nec purus. Nunc ultrices commodo condimentum.</description>
     </item>
     
