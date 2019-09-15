@@ -6,21 +6,10 @@
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Sun, 15 Sep 2019 06:21:13 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 12:39:13 +0100</lastBuildDate>
     
 	<atom:link href="http://www.keirwhitlock.co.uk/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Go: Writing unit tests in Go</title>
-      <link>http://www.keirwhitlock.co.uk/posts/go/testing/</link>
-      <pubDate>Sun, 15 Sep 2019 06:21:13 +0100</pubDate>
-      
-      <guid>http://www.keirwhitlock.co.uk/posts/go/testing/</guid>
-      <description>Go Testing Unlike other languages, Go provides the testing framework in its standard library making testing in Go much simpler and indeed a must in anything going to production.
-Writing tests are easy as Go coding in general. Lets see a simple test that checks a greeting function produces the correct output.
-Writing a Test package main import &amp;quot;testing&amp;quot; func TestSimpleGreeting(t *testing.T){ got := greetMe(&amp;quot;Keir&amp;quot;) want := &amp;quot;Welcome, Keir&amp;quot; if got !</description>
-    </item>
     
     <item>
       <title>My First Post</title>
