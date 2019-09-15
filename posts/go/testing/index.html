@@ -41,7 +41,7 @@ Writing a Test package main import &quot;testing&quot; func TestSimpleGreeting(t
 
 <meta itemprop="datePublished" content="2019-09-15T06:21:13&#43;01:00" />
 <meta itemprop="dateModified" content="2019-09-15T06:21:13&#43;01:00" />
-<meta itemprop="wordCount" content="195">
+<meta itemprop="wordCount" content="198">
 
 
 
@@ -136,11 +136,11 @@ func TestSimpleGreeting(t *testing.T){
 
 <p>The <code>testing</code> package is imported from the standard library, providing a plethora of methods we can use.</p>
 
-<p>Tests in Go must start with the work <em>&ldquo;Test&rdquo;</em> with the first letter capitalised. Otherwise the test will not run when called.</p>
+<p>Tests in Go must start with the word <code>Test</code> with the first letter capitalised. Otherwise the test will not run when called. For example <code>TestSimpleGreeting()</code>.</p>
 
 <p>The test needs to take in a pointer to the testing method T, which is commonly assigned to the variable <em>t</em>.</p>
 
-<p>Save the file with the suffix _&rsquo;<em>test.go&rsquo;</em> for example:
+<p>Save the file with the suffix <code>_test.go</code> for example:
 <code>greetMe_test.go</code> - this is so the Go testing tool knows that this Go file contains tests it should be compiling and running.</p>
 
 <h3 id="running-the-go-testing-tool">Running the Go testing tool</h3>
