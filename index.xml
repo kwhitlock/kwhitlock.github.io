@@ -2,22 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <link>http://www.keirwhitlock.co.uk/</link>
+    <link>https://www.keirwhitlock.co.uk/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-gb</language>
-    <lastBuildDate>Thu, 05 Sep 2019 12:39:13 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2019 06:21:13 +0100</lastBuildDate>
     
-	<atom:link href="http://www.keirwhitlock.co.uk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.keirwhitlock.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>My First Post</title>
-      <link>http://www.keirwhitlock.co.uk/posts/my-first-post/</link>
-      <pubDate>Thu, 05 Sep 2019 12:39:13 +0100</pubDate>
+      <title>Go: Writing unit tests in Go</title>
+      <link>https://www.keirwhitlock.co.uk/posts/go/testing/</link>
+      <pubDate>Sun, 15 Sep 2019 06:21:13 +0100</pubDate>
       
-      <guid>http://www.keirwhitlock.co.uk/posts/my-first-post/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod a velit et dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse hendrerit libero eget tortor imperdiet, vitae consectetur orci porttitor. Fusce dictum purus eget neque consectetur pellentesque. Integer mattis lobortis condimentum. Nulla porttitor sodales eleifend. Donec eleifend, lacus eu tempor porttitor, nisi tellus consectetur enim, at sodales magna diam nec purus. Nunc ultrices commodo condimentum.</description>
+      <guid>https://www.keirwhitlock.co.uk/posts/go/testing/</guid>
+      <description>Go Testing Unlike other languages, Go provides the testing framework in its standard library making testing in Go much simpler and indeed a must in anything going to production.
+Writing tests are easy as Go coding in general. Lets see a simple test that checks a greeting function produces the correct output.
+TDD Process to Get a Passing Test Writing Failing Test package main import &amp;quot;testing&amp;quot; func TestSimpleGreeting(t *testing.T){ got := greetMe(&amp;quot;Keir&amp;quot;) want := &amp;quot;Welcome, Keir&amp;quot; if got !</description>
     </item>
     
   </channel>
