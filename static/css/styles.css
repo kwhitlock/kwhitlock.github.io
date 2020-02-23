@@ -1,15 +1,51 @@
-html,
-body {
+html, body {
     margin: 0;
+    padding: 0;
     background-color: #BD632F;
-    color: #ACC196;
+    color: #0B2027;
+    font-family: 'Josefin Sans', 'Times New Roman';
+}
+
+h1 {
+    font-size: 4em;
 }
 
 header {
-    background-color: #D8973C;
+    background-color: #A4243B;
     height: 80px;
     width: 100%;
     position: fixed;
     margin: 0 auto;
+    top: 0;
+    z-index: 1;
 }
 
+header nav {
+    float: right;
+    font-size: 3em;
+}
+
+main {
+    position: relative;
+    top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#intro {}
+
+#intro article {
+    text-align: center;
+    display: inline-block;
+}
+
+#intro figure {
+    display: inline-block;
+}
+
+#intro img {
+    border-radius: 50%;
+    border: 1px solid #A4243B;
+    opacity: 0.7;
+    width: 20em;
+}
