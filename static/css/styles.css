@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    background-color: #BD632F;
+    color: #ACC196;
+}
+
+header {
+    background-color: #D8973C;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+}
+
