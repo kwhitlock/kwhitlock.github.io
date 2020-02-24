@@ -8,6 +8,9 @@ html, body {
 
 h1 {
     font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 40px;
 }
 
 header {
@@ -21,32 +24,84 @@ header {
     border-bottom: 1px solid #0B2027;
 }
 
-header nav {
+nav {
     float: right;
-    font-size: 3em;
+    text-align: right;
+    flex-grow: 1;
+}
+
+nav span {
+    display: inline-block;
+    padding: 30px 20px;
+}
+
+nav a {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #0B2027;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 main {
     position: relative;
     top: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align: center;
+    margin-bottom: 60px;
 }
 
-#intro {}
+.centredflex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+#intro {
+    background-color: #D8973C;
+    padding: 10px 50px;
+    border-bottom: 1px solid #0B2027;
+}
 
 #intro article {
     text-align: center;
-    display: inline-block;
+    flex-grow: 2;
+    width: 300px;
 }
 
 #intro figure {
-    display: inline-block;
+    flex-grow: 1;
 }
 
 #intro img {
     border-radius: 50%;
-    border: 1px solid #A4243B;
+    border: 10px solid #A4243B;
     opacity: 0.7;
-    width: 20em;
+    max-width: 20em;
+}
+
+#certs {
+    text-align: center;
+}
+
+footer {
+    background-color: #A4243B;
+    height: 45px;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 0;
+    z-index: 1;
+    border-top: 1px solid #0B2027;
+    text-align: center;
+}
+
+footer h5 {
+    margin: 5px 10px;
 }
