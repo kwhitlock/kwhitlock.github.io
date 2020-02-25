@@ -58,9 +58,30 @@ main {
 .centredflex {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+}
+
+.certbox {
+    width: 400px;
+    height: 300px;
+    background-color: #3E5641;
+    border: 1px solid #0B2027;
+    margin-bottom: 20px;
+}
+
+.certbox h3 {
+    background-color: white;
+    padding: 5px;
+    border-left: 1px solid #3E5641;
+    border-right: 1px solid #3E5641;
+}
+
+.certbox img {
+    width: 200px;
+}
+
+.course {
+    background-color: #241E4E;
 }
 
 #intro {
