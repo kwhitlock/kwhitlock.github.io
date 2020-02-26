@@ -50,6 +50,8 @@ nav a {
 a {
     text-decoration: none;
     color: #0B2027;
+    transition-property: color;
+    transition-duration: 750ms;
 }
 
 a:hover {
@@ -61,6 +63,10 @@ main {
     top: 80px;
     text-align: center;
     margin-bottom: 60px;
+}
+
+article a {
+    font-weight: bold;
 }
 
 .centredflex {
